@@ -16,7 +16,7 @@ let saved_account = "";
 // Declaring poll question and answers
 // Currenltly static, exisiting example of objectId in Moralis instance's db.
 
-const pollQuestion = "Youtube is the best place to learn ?";
+const pollQuestion = "Youtube is the best place to learn ???";
 const answers = [
   { option: "Yes", votes: 7 },
   { option: "No", votes: 2 },
@@ -61,7 +61,7 @@ function Polls({ more }) {
       return false;
     } else {
       // access condition
-      _access = balance.balance && balance.balance > 0 ? true : false;
+      _access = balance.balance && balance.balance > -1 ? true : false;
       if (_access) {
         // reset/build options
         option_voted = "";
