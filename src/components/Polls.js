@@ -18,9 +18,9 @@ let saved_account = "";
 
 const pollQuestion = "Youtube is the best place to learn ???";
 const answers = [
-  { option: "Yes", votes: 7 },
-  { option: "No", votes: 2 },
-  { option: "don't know", votes: 1 },
+  { option: "Yes", votes: 10 },
+  { option: "No", votes: 5 },
+  { option: "Test of modification", votes: 3 },
 ];
 let option_voted = "";
 let poll_id = 1;
